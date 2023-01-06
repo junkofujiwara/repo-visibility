@@ -5,7 +5,7 @@ Python 3
 `pip install -r requirements.txt`
 
 ### Usage: List Repository Visibility
-Purpose: To list repository visibility info.
+Purpose: To list repository visibility info.<br/>
 How to Use: Execute following commandline with your organization name and token (Personal Access Token). The list of repo names and visibility information is written to a csv file `repos.csv`.
 
 - Commandline: 
@@ -21,7 +21,7 @@ How to Use: Execute following commandline with your organization name and token 
 `repo_vis.log`
 
 ### Usage: Compare Repository Visibility
-Purpose: To compare repository visibility info.
+Purpose: To compare repository visibility info.<br/>
 How to Use: Execute following commandline with your target organization name and token (Personal Access Token). The list of repo names and visibility information is written to a csv file `repos_target.csv`. The list of repo names and visibility information will be compared with `repos.csv` and the differences are shown in 'repos_diff.csv'.
 
 - Commandline
@@ -44,7 +44,7 @@ How to Use: Execute following commandline with your target organization name and
 `repo_vis.log`
 
 ### Usage: Compare Repository Visibility
-Purpose: To update repository visibility info.
+Purpose: To update repository visibility info.<br/>
 How to Use: Execute following commandline with your target organization name and token (Personal Access Token). Processes visibility update for repository that shows the differences in the 'repos_diff.csv'.
 
 - Commandline
