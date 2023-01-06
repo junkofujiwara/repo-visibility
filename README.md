@@ -30,11 +30,11 @@ How to Use: Execute following commandline with your target organization name and
 `repos.csv`
 - Output 1
 `repos_target.csv`
-Output Format: `<repo_name>,<visibility>`
+- Output Format: `<repo_name>,<visibility>`
 - Output 2
 `repos_diff.csv`
-Output Format: `<repo_name>,<visibility>,<is_same?>(True/False),<expected_visibility>(visiblity or NOT FOUND if not exists`
-Sample:
+- Output 2 Format: `<repo_name>,<visibility>,<is_same?>(True/False),<expected_visibility>(visiblity or NOT FOUND if not exists`
+- Sample:
  ```
  name_of_repoA,PRIVATE,True
  name_of_repoB,INTERNAL,False,PRIVATE
