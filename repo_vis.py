@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf_8 -*-
-"""list_repo.py"""
+"""repo_vis.py"""
 import logging
 import settings
 from util.utility import init, write_file, read_file, compare_data
